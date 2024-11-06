@@ -52,7 +52,7 @@ export const Layer3 = styled(Layer)`
 export const Data = styled.div`
 	position: absolute;
 	display: flex;
-	left: 56px;
+	left: 68px;
 	top: 20px;
 `;
 
@@ -79,28 +79,18 @@ export const HeaderInfo = styled.div`
 	margin-left: 100px;
 	text-align: center;
 	color: azure;
-	text-shadow: 1px 1px 2px rgb(26, 26, 26);
+	text-shadow: 1.4px 1.4px 2px rgb(26, 26, 26);
 `;
 
 export const Name = styled.h1`
 	margin-top: 22px;
-	font-size: 34px;
+	font-size: 36px;
 	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 `;
 
 export const JobTitle = styled.p`
-	margin-top: 10px;
-	font-size: 22px;
-`;
-
-export const Info = styled.p`
-	position: absolute;
-	width: 100%;
-	top: 20px;
-	text-align: center;
-	color: azure;
-	font-size: 20px;
-	visibility: hidden;
+	margin-top: 8px;
+	font-size: 24px;
 `;

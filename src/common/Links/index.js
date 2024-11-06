@@ -1,4 +1,4 @@
-import { Link, ContactLink, IconContainer, Icon, LinkLinkedIn } from "./styled";
+import { Link, ContactLink, IconContainer, Icon, LinkToLinkedIn } from "./styled";
 import {
 	faEnvelope,
 	faPhone,
@@ -40,7 +40,7 @@ export const AddressLink = () => (
 );
 
 export const LinkedInLink = () => (
-	<LinkLinkedIn
+	<LinkToLinkedIn
 		href="https://www.linkedin.com/in/anna-%C5%82ukaszczyk2/"
 		target="_blank"
 		rel="noopener noreferrer"
@@ -51,7 +51,7 @@ export const LinkedInLink = () => (
 		www.linkedin.com/in/
 		<br />
 		anna-łukaszczyk2
-	</LinkLinkedIn>
+	</LinkToLinkedIn>
 );
 
 export const CertyficateLink = () => (

@@ -6,6 +6,7 @@ export const ContactLink = styled.a`
 	align-items: center;
 	text-decoration: none;
 	font-weight: bold;
+	line-height: 1;
 	color: rgba(64, 64, 64, 1);
 `;
 
@@ -26,7 +27,7 @@ export const Icon = styled(FontAwesomeIcon)`
 	filter: drop-shadow(1px 1px 2px rgb(26, 26, 26));
 `;
 
-export const LinkToAddressContact = styled(ContactLink)`
+export const LinkToLinkedIn = styled(ContactLink)`
 	margin-bottom: 10px;
 `;
 

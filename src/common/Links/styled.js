@@ -37,6 +37,7 @@ export const IconContainer = styled.span`
 export const IconEnvelope = styled(FontAwesomeIcon)`
 	position: absolute;
 	margin-top: 2px;
+	color: azure;
 	filter: drop-shadow(1px 1px 2px rgb(26, 26, 26));
 	opacity: 1;
 	transition: opacity 0.5s ease-in-out;
@@ -44,15 +45,20 @@ export const IconEnvelope = styled(FontAwesomeIcon)`
 
 export const IconEnvelopeOpen = styled(FontAwesomeIcon)`
 	position: absolute;
+	color: azure;
 	filter: drop-shadow(1px 1px 2px rgb(26, 26, 26));
 	opacity: 0;
 	transition: opacity 0.5s ease-in-out;
 `;
 
-export const LinkToMailContact = styled.a`
-	display: flex;
-	color: azure;
+export const ContactLink = styled.a`
 	text-decoration: none;
+	font-weight: bold;
+	color: rgba(64, 64, 64, 1);
+`;
+
+export const LinkToMailContact = styled(ContactLink)`
+	display: flex;
 
 	&:hover ${IconEnvelope} {
 		opacity: 0;
@@ -65,12 +71,8 @@ export const LinkToMailContact = styled.a`
 
 export const Icon = styled(FontAwesomeIcon)`
 	margin-right: 10px;
-	filter: drop-shadow(1px 1px 2px rgb(26, 26, 26));
-`;
-
-export const ContactLink = styled.a`
 	color: azure;
-	text-decoration: none;
+	filter: drop-shadow(1px 1px 2px rgb(26, 26, 26));
 `;
 
 export const LinkToPhoneContact = styled(ContactLink)`
@@ -80,6 +82,8 @@ export const LinkToPhoneContact = styled(ContactLink)`
 `;
 
 export const LinkToAddressContact = styled(ContactLink)`
+	margin-bottom: 10px;
+
 	&:hover ${Icon} {
 		animation: ${jumpAnimation} 1s infinite;
 	}

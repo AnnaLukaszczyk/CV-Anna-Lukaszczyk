@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/CV-Anna-Lukaszczyk-change-of-industry/static/css/main.659eaf0a.css",
+    "main.js": "/CV-Anna-Lukaszczyk-change-of-industry/static/js/main.0c680826.js",
+    "static/js/453.6bf921a5.chunk.js": "/CV-Anna-Lukaszczyk-change-of-industry/static/js/453.6bf921a5.chunk.js",
+    "static/media/CV-photo.jpg": "/CV-Anna-Lukaszczyk-change-of-industry/static/media/CV-photo.8f7f83fb1bce2772dc38.jpg",
+    "index.html": "/CV-Anna-Lukaszczyk-change-of-industry/index.html",
+    "main.659eaf0a.css.map": "/CV-Anna-Lukaszczyk-change-of-industry/static/css/main.659eaf0a.css.map",
+    "main.0c680826.js.map": "/CV-Anna-Lukaszczyk-change-of-industry/static/js/main.0c680826.js.map",
+    "453.6bf921a5.chunk.js.map": "/CV-Anna-Lukaszczyk-change-of-industry/static/js/453.6bf921a5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.659eaf0a.css",
+    "static/js/main.0c680826.js"
+  ]
+}

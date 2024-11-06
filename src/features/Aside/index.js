@@ -1,8 +1,15 @@
 import { Section } from "../../common/Section";
 import { StyledAside } from "./styled";
+import { AddressLink, EmailLink, PhoneNumberLink } from "../../common/Links";
 
 export const Aside = () => (
 	<StyledAside>
+		<Section
+			name="Kontakt"
+			content={[<EmailLink />, <PhoneNumberLink />, <AddressLink />]}
+			showIcons={false}
+			showTitle={false}
+		/>
 		<Section
 			name="Umiejętności"
 			content={[
@@ -21,24 +28,19 @@ export const Aside = () => (
 			name="Mocne strony"
 			content={[
 				"kreatywność",
-				"dokładność i szczegółowość", 
-				"szybkie uczenie się"
+				"dokładność i szczegółowość",
+				"szybkie uczenie się",
 			]}
 		/>
 		<Section
 			name="Jak pracuję"
-			content={[
-				"energicznie", 
-				"zadaniowo", 
-				"skutecznie", 
-				"efektywnie"
-			]}
+			content={["energicznie", "zadaniowo", "skutecznie", "efektywnie"]}
 		/>
-				<Section
+		<Section
 			name="Zainteresowania"
 			content={[
 				"filmy i seriale kryminalne, detektywistyczne i prawnicze, które angażują w rozwiązywanie spraw i analizowanie złożonych sytuacji",
-				"lubię układać puzzle, które doskonale ćwiczą pamięć i rozwijają umiejętności logicznego myślenia"
+				"lubię układać puzzle, które doskonale ćwiczą pamięć i rozwijają umiejętności logicznego myślenia",
 			]}
 		/>
 	</StyledAside>

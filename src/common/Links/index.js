@@ -41,7 +41,7 @@ export const AddressLink = () => (
 		rel="noopener noreferrer"
 		title="Kliknij, aby zobaczyć na mapie">
 		<Icon icon={faLocationDot} />
-		Mircze
+		ul. Słoneczna 14, 22-530 Mircze
 	</LinkToAddressContact>
 );
 

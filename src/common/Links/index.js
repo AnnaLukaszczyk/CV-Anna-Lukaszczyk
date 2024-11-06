@@ -1,37 +1,34 @@
 import {
 	Link,
-	LinkToMailContact,
-	LinkToPhoneContact,
+	ContactLink,
 	LinkToAddressContact,
-	Icon,
-	IconEnvelope,
-	IconEnvelopeOpen,
 	IconContainer,
+	Icon,
 } from "./styled";
 import {
 	faEnvelope,
 	faPhone,
 	faLocationDot,
-	faEnvelopeOpen,
 } from "@fortawesome/free-solid-svg-icons";
 
 export const EmailLink = () => (
-	<LinkToMailContact
+	<ContactLink
 		href="mailto:anna.lukaszczyk222@gmail.com"
 		title="Kliknij, aby wysłać email">
 		<IconContainer>
-			<IconEnvelope icon={faEnvelope} />
-			<IconEnvelopeOpen icon={faEnvelopeOpen} />
+			<Icon icon={faEnvelope} />
 		</IconContainer>
 		anna.lukaszczyk222@gmail.com
-	</LinkToMailContact>
+	</ContactLink>
 );
 
 export const PhoneNumberLink = () => (
-	<LinkToPhoneContact href="tel:+48607174433" title="Kliknij, aby zadzwonić">
-		<Icon icon={faPhone} />
+	<ContactLink href="tel:+48607174433" title="Kliknij, aby zadzwonić">
+		<IconContainer>
+			<Icon icon={faPhone} />
+		</IconContainer>
 		+48 607 17 44 33
-	</LinkToPhoneContact>
+	</ContactLink>
 );
 
 export const AddressLink = () => (
@@ -40,7 +37,10 @@ export const AddressLink = () => (
 		target="_blank"
 		rel="noopener noreferrer"
 		title="Kliknij, aby zobaczyć na mapie">
-		<Icon icon={faLocationDot} />
+		<IconContainer>
+			{" "}
+			<Icon icon={faLocationDot} />
+		</IconContainer>
 		ul. Słoneczna 14, 22-530 Mircze
 	</LinkToAddressContact>
 );

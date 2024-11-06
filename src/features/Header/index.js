@@ -11,7 +11,6 @@ import {
 	HeaderInfo,
 	Name,
 	JobTitle,
-	Info,
 } from "./styled";
 import CVPhoto from "./CV-photo.jpg";
 
@@ -39,6 +38,5 @@ export const Header = () => (
 				<JobTitle>React Frontend Developer</JobTitle>
 			</HeaderInfo>
 		</Data>
-		<Info>Obróć telefon aby zobaczyć CV</Info>
 	</StyledHeader>
 );

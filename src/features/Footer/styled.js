@@ -11,10 +11,6 @@ export const Layers = styled.div`
 	height: 100px;
 	width: 100%;
 	overflow: hidden;
-
-	@media (max-width: ${({ theme }) => theme.breakpoints.tabletLarge}px) {
-		height: 120px;
-	}
 `;
 
 export const LayerBox = styled.div`
@@ -67,10 +63,6 @@ export const Button = styled.button`
 	&:hover + p {
 		color: azure;
 	}
-
-	@media (max-width: ${({ theme }) => theme.breakpoints.mobileSmall}px) {
-		visibility: hidden;
-	}
 `;
 
 export const Info = styled.p`
@@ -82,20 +74,4 @@ export const Info = styled.p`
 	font-size: 10px;
 	color: transparent;
 	transition: color 0.8s ease-in-out;
-
-	@media (max-width: ${({ theme }) => theme.breakpoints.tablet}px) {
-		font-size: 9px;
-	}
-
-	@media (max-width: ${({ theme }) => theme.breakpoints.tabletSmall}px) {
-		font-size: 8px;
-	}
-
-	@media (max-width: ${({ theme }) => theme.breakpoints.mobileMedium}px) {
-		font-size: 7px;
-	}
-
-	@media (max-width: ${({ theme }) => theme.breakpoints.mobileSmall}px) {
-		visibility: hidden;
-	}
 `;

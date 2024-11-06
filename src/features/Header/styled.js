@@ -13,22 +13,6 @@ export const Layers = styled.div`
 	position: relative;
 	height: 200px;
 	width: 100%;
-
-	@media (max-width: ${({ theme }) => theme.breakpoints.tablet}px) {
-		height: 170px;
-	}
-
-	@media (max-width: ${({ theme }) => theme.breakpoints.tabletSmall}px) {
-		height: 144px;
-	}
-
-	@media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
-		height: 134px;
-	}
-
-	@media (max-width: ${({ theme }) => theme.breakpoints.mobileMedium}px) {
-		height: 114px;
-	}
 `;
 
 export const LayerBox = styled.div`
@@ -70,18 +54,6 @@ export const Data = styled.div`
 	display: flex;
 	left: 56px;
 	top: 20px;
-
-	@media (max-width: ${({ theme }) => theme.breakpoints.tabletLarge}px) {
-		left: 5.5vw;
-	}
-
-	@media (max-width: ${({ theme }) => theme.breakpoints.mobileLarge}px) {
-		top: 14px;
-	}
-
-	@media (max-width: ${({ theme }) => theme.breakpoints.mobileSmall}px) {
-		visibility: hidden;
-	}
 `;
 
 export const PhotoBackground = styled.div`
@@ -96,143 +68,39 @@ export const PhotoBackground = styled.div`
 		rgba(146, 203, 221, 1) 0%,
 		rgba(34, 89, 105, 1) 100%
 	);
-
-	@media (max-width: ${({ theme }) => theme.breakpoints.tablet}px) {
-		height: 156px;
-		width: 126px;
-	}
-
-	@media (max-width: ${({ theme }) => theme.breakpoints.tabletSmall}px) {
-		height: 132px;
-		width: 107px;
-	}
-
-	@media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
-		height: 112px;
-		width: 91px;
-	}
-
-	@media (max-width: ${({ theme }) => theme.breakpoints.mobileMedium}px) {
-		height: 98px;
-		width: 80px;
-	}
 `;
 
 export const Photo = styled.img`
 	height: 180px;
 	width: 144px;
-
-	@media (max-width: ${({ theme }) => theme.breakpoints.tablet}px) {
-		height: 150px;
-		width: 120px;
-	}
-
-	@media (max-width: ${({ theme }) => theme.breakpoints.tabletSmall}px) {
-		height: 126px;
-		width: 101px;
-	}
-
-	@media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
-		height: 108px;
-		width: 87px;
-	}
-
-	@media (max-width: ${({ theme }) => theme.breakpoints.mobileMedium}px) {
-		height: 94px;
-		width: 76px;
-	}
 `;
 
-export const NameAndContact = styled.div`
+export const HeaderInfo = styled.div`
 	margin-left: 100px;
+	text-align: center;
 	color: azure;
-
-	@media (max-width: ${({ theme }) => theme.breakpoints.tabletLarge}px) {
-		margin-left: 10vw;
-	}
-
-	@media (max-width: ${({ theme }) => theme.breakpoints.tabletSmall}px) {
-		font-size: 14px;
-	}
-
-	@media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
-		margin-left: 7vw;
-	}
-
-	@media (max-width: ${({ theme }) => theme.breakpoints.mobileMedium}px) {
-		font-size: 12px;
-	}
+	text-shadow: 1px 1px 2px rgb(26, 26, 26);
 `;
 
 export const Name = styled.h1`
-	margin-top: 16px;
-	font-size: 32px;
+	margin-top: 22px;
+	font-size: 34px;
 	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	text-shadow: 1px 1px 2px rgb(26, 26, 26);
-
-	@media (max-width: ${({ theme }) => theme.breakpoints.tablet}px) {
-		margin-top: 10px;
-		font-size: 28px;
-	}
-
-	@media (max-width: ${({ theme }) => theme.breakpoints.tabletSmall}px) {
-		margin-top: 4px;
-		font-size: 24px;
-	}
-
-	@media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
-		font-size: 22px;
-	}
-
-	@media (max-width: ${({ theme }) => theme.breakpoints.mobileMedium}px) {
-		font-size: 19px;
-	}
 `;
 
-export const Mail = styled.p`
-	margin: 10px 0;
-	text-shadow: 1px 1px 2px rgb(26, 26, 26);
-
-	@media (max-width: ${({ theme }) => theme.breakpoints.tablet}px) {
-		margin: 6px 0;
-	}
-
-	@media (max-width: ${({ theme }) => theme.breakpoints.tabletSmall}px) {
-		margin: 4px 0;
-	}
-`;
-
-export const PhoneNumber = styled.p`
-	display: inline-block;
-	text-shadow: 1px 1px 2px rgb(26, 26, 26);
-`;
-
-export const Address = styled.p`
-	display: inline-block;
-	margin-left: 30px;
-	text-shadow: 1px 1px 2px rgb(26, 26, 26);
-
-	@media (max-width: ${({ theme }) => theme.breakpoints.tabletSmall}px) {
-		margin-left: 26px;
-	}
-
-	@media (max-width: ${({ theme }) => theme.breakpoints.mobileMedium}px) {
-		margin-left: 22px;
-	}
+export const JobTitle = styled.p`
+	margin-top: 10px;
+	font-size: 22px;
 `;
 
 export const Info = styled.p`
-position: absolute;
-width: 100%;
-top: 20px;
-text-align: center;
-color: azure;
-font-size: 20px;
-visibility: hidden;
-
-@media (max-width: ${({ theme }) => theme.breakpoints.mobileSmall}px) {
-	visibility: visible;
-	}
-`
+	position: absolute;
+	width: 100%;
+	top: 20px;
+	text-align: center;
+	color: azure;
+	font-size: 20px;
+	visibility: hidden;
+`;

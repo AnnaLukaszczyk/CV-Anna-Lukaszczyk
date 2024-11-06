@@ -8,15 +8,12 @@ import {
 	Data,
 	PhotoBackground,
 	Photo,
-	NameAndContact,
+	HeaderInfo,
 	Name,
-	Mail,
-	PhoneNumber,
-	Address,
+	JobTitle,
 	Info,
 } from "./styled";
 import CVPhoto from "./CV-photo.jpg";
-import { AddressLink, EmailLink, PhoneNumberLink } from "../../common/Links";
 
 export const Header = () => (
 	<StyledHeader>
@@ -37,18 +34,10 @@ export const Header = () => (
 			<PhotoBackground>
 				<Photo src={CVPhoto} alt="Zdjęcie Anny Łukaszczyk" />
 			</PhotoBackground>
-			<NameAndContact>
+			<HeaderInfo>
 				<Name>Anna Łukaszczyk</Name>
-				<Mail>
-					<EmailLink />
-				</Mail>
-				<PhoneNumber>
-					<PhoneNumberLink />
-				</PhoneNumber>
-				<Address>
-					<AddressLink />
-				</Address>
-			</NameAndContact>
+				<JobTitle>React Frontend Developer</JobTitle>
+			</HeaderInfo>
 		</Data>
 		<Info>Obróć telefon aby zobaczyć CV</Info>
 	</StyledHeader>

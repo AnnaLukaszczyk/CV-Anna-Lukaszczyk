@@ -1,12 +1,12 @@
 import { Section } from "../../common/Section";
 import { StyledAside } from "./styled";
-import { AddressLink, EmailLink, PhoneNumberLink } from "../../common/Links";
+import { AddressLink, EmailLink, PhoneNumberLink, LinkedInLink } from "../../common/Links";
 
 export const Aside = () => (
 	<StyledAside>
 		<Section
 			name="Kontakt"
-			content={[<EmailLink />, <PhoneNumberLink />, <AddressLink />]}
+			content={[<EmailLink />, <PhoneNumberLink />, <AddressLink />, <LinkedInLink />]}
 			showIcons={false}
 			showTitle={false}
 		/>
@@ -14,7 +14,7 @@ export const Aside = () => (
 			name="Umiejętności"
 			content={[
 				"znajomość Responsive Web Design (RWD) i zasad projektowania UI",
-				"podstawowa znajomość: HTML, CSS (Flexbox, Grid), JavaScript, React",
+				"znajomość: HTML, CSS (Flexbox, Grid), JavaScript, React",
 				"GitHub",
 				"Figma",
 				"Trello",

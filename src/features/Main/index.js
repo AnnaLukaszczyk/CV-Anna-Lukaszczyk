@@ -11,13 +11,7 @@ export const Main = () => (
 			name="O mnie"
 			content={[
 				<Description>
-					Od 1,5 roku interesuję się programowaniem, a moim sercem zawładnął
-					frontend. Brak możliwości rozwoju w poprzedniej pracy skłonił mnie do
-					zmiany branży: nie lubię tkwić w miejscu, a w każdym wyzwaniu widzę
-					możliwości rozwoju. Uważam, że nie ma problemu, którego nie da się
-					rozwiązać. Chciałabym projektować responsywne strony internetowe oraz
-					aplikacje webowe. Dążę do pracy w dynamicznym zespole, w którym
-					mogłabym wykorzystać swoje umiejętności analityczne i kreatywność.
+					Od 1,5 roku pasjonuję się programowaniem, a <strong>frontend</strong> daje mi największe możliwości realizacji moich pomysłów oraz wykorzystania kreatywności. W&nbsp;trakcie procesu przebranżowienia odkryłam, że praca z <strong>JavaScriptem</strong> i&nbsp;<strong>Reactem</strong> daje mi ogromną satysfakcję. Brak możliwości rozwoju w&nbsp;poprzedniej pracy skłonił mnie do zmiany branży: nie lubię tkwić w&nbsp;miejscu, natomiast w każdym wyzwaniu widzę możliwości rozwoju. Każdy nowy projekt jest dla mnie okazją do nauki i doskonalenia umiejętności. Uważam, że nie ma problemu, którego nie da się rozwiązać – to podejście chcę wykorzystywać, projektując <strong>responsywne strony internetowe</strong> i <strong>nowoczesne aplikacje webowe</strong>. Moim celem jest zdobycie doświadczenia jako <strong>React Frontend Developer</strong> w dynamicznym zespole, gdzie będę mogła połączyć swoje <strong>umiejętności analityczne</strong> z&nbsp;<strong>kreatywnością</strong>, tworząc rozwiązania, które będą funkcjonalne i&nbsp;estetyczne.
 				</Description>,
 			]}
 			showIcons={false}

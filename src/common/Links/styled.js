@@ -33,6 +33,5 @@ export const LinkToLinkedIn = styled(ContactLink)`
 
 export const Link = styled.a`
 	color: black;
-	font-weight: bold;
 	text-decoration: none;
 `;

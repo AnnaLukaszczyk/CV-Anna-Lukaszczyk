@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const StyledFooter = styled.footer`
 	position: absolute;
@@ -59,10 +60,15 @@ export const Button = styled.button`
 	border: 1px solid azure;
 	border-radius: 50%;
 	background-color: transparent;
+	cursor: pointer;
 
 	&:hover + p {
 		color: azure;
 	}
+`;
+
+export const ArrowIcon = styled(FontAwesomeIcon)`
+	color: azure;
 `;
 
 export const Info = styled.p`

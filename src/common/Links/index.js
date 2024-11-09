@@ -1,4 +1,10 @@
-import { Link, ContactLink, IconContainer, Icon, LinkToLinkedIn } from "./styled";
+import {
+	Link,
+	ContactLink,
+	IconContainer,
+	Icon,
+	LinkToLinkedIn,
+} from "./styled";
 import {
 	faEnvelope,
 	faPhone,
@@ -54,13 +60,13 @@ export const LinkedInLink = () => (
 	</LinkToLinkedIn>
 );
 
-export const CertyficateLink = () => (
+export const CertificateLink = ({ certificateLink }) => (
 	<Link
-		href="https://github.com/AnnaLukaszczyk/CV-AnnaLukaszczyk/blob/main/public/certyfikat.png?raw=true"
+		href={certificateLink}
 		target="_blank"
 		rel="noopener noreferrer"
 		title="Kliknij, aby zobaczyć certyfikat">
-		zobacz certyfikat ukończenia
+		{certificateLink}
 	</Link>
 );
 

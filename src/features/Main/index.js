@@ -1,5 +1,5 @@
 import { Section } from "../../common/Section";
-import { Description, StyledMain } from "./styled";
+import { Description, StyledMain, Course } from "./styled";
 import { CertificateLink, PersonalHomepage } from "../../common/Links";
 import { List } from "../../common/List";
 import { faPlay } from "@fortawesome/free-solid-svg-icons";
@@ -10,22 +10,26 @@ export const Main = () => (
 			isMain
 			name="Kursy"
 			content={[
-				<span>07.11.2024 r. - Kurs JavaScript w MMC School</span>,
-				<span>
-					01.10.2024 r. - Kurs Frontend Developer od podstaw w YouCode -{" "}
+				<Course>07.11.2024 r. - Kurs JavaScript w MMC School <br />
+					<CertificateLink certificateLink="https://github.com/AnnaLukaszczyk/CV-Anna-Lukaszczyk/blob/main/public/certificateJS.png?raw=true" /></Course>,
+				<Course>
+					01.10.2024 r. - Kurs Frontend Developer od podstaw w YouCode <br />
 					<CertificateLink certificateLink="https://github.com/AnnaLukaszczyk/CV-Anna-Lukaszczyk/blob/main/public/certificateYouCode.png?raw=true" />
-				</span>,
-				<span>
-					02.03.2023 r. - Kurs Tworzenia Stron WWW cz. 3 w MMC School
-				</span>,
-				<span>
+				</Course>,
+				<Course>
+					02.03.2023 r. - Kurs Tworzenia Stron WWW cz. 3 w MMC School <br />
+					<CertificateLink certificateLink="https://github.com/AnnaLukaszczyk/CV-Anna-Lukaszczyk/blob/main/public/certificateWWW3.png?raw=true" />
+				</Course>,
+				<Course>
 					09.02.2023 r. - Kurs Tworzenia Stron WWW cz. 2 - SASS, JS, Bootstrap
-					na Udemy, prowadzony przez instruktora z MMC School
-				</span>,
-				<span>
+					na Udemy, prowadzony przez instruktora z MMC School <br />
+					<CertificateLink certificateLink="https://github.com/AnnaLukaszczyk/CV-Anna-Lukaszczyk/blob/main/public/certificateWWW2.png?raw=true" />
+				</Course>,
+				<Course>
 					17.01.2023 r. - Kurs Tworzenia Stron WWW cz. 1 - HTML, CSS, RWD na
-					Udemy, prowadzony przez instruktora z MMC School
-				</span>,
+					Udemy, prowadzony przez instruktora z MMC School <br />
+					<CertificateLink certificateLink="https://github.com/AnnaLukaszczyk/CV-Anna-Lukaszczyk/blob/main/public/certificateWWW1.png?raw=true" />
+				</Course>,
 			]}
 		/>
 		<Section

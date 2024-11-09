@@ -1,6 +1,6 @@
 import { Section } from "../../common/Section";
 import { Description, StyledMain } from "./styled";
-import { CertyficateLink, PersonalHomepage } from "../../common/Links";
+import { CertificateLink, PersonalHomepage } from "../../common/Links";
 import { List } from "../../common/List";
 import { faPlay } from "@fortawesome/free-solid-svg-icons";
 
@@ -10,21 +10,21 @@ export const Main = () => (
 			isMain
 			name="Kursy"
 			content={[
-				<span>
-				07.11.2024 r. - Kurs JavaScript w MMC School
-			</span>,
+				<span>07.11.2024 r. - Kurs JavaScript w MMC School</span>,
 				<span>
 					01.10.2024 r. - Kurs Frontend Developer od podstaw w YouCode -{" "}
-					<CertyficateLink />
+					<CertificateLink certificateLink="https://github.com/AnnaLukaszczyk/CV-Anna-Lukaszczyk/blob/main/public/certificateYouCode.png?raw=true" />
 				</span>,
-					<span>
+				<span>
 					02.03.2023 r. - Kurs Tworzenia Stron WWW cz. 3 w MMC School
 				</span>,
-						<span>
-						09.02.2023 r. - Kurs Tworzenia Stron WWW cz. 2 - SASS, JS, Bootstrap na Udemy, prowadzony przez instruktora z MMC School
-					</span>,
-					<span>
-					17.01.2023 r. - Kurs Tworzenia Stron WWW cz. 1 - HTML, CSS, RWD na Udemy, prowadzony przez instruktora z MMC School
+				<span>
+					09.02.2023 r. - Kurs Tworzenia Stron WWW cz. 2 - SASS, JS, Bootstrap
+					na Udemy, prowadzony przez instruktora z MMC School
+				</span>,
+				<span>
+					17.01.2023 r. - Kurs Tworzenia Stron WWW cz. 1 - HTML, CSS, RWD na
+					Udemy, prowadzony przez instruktora z MMC School
 				</span>,
 			]}
 		/>
@@ -43,7 +43,26 @@ export const Main = () => (
 			name="O mnie"
 			content={[
 				<Description>
-					Od 1,5 roku pasjonuję się programowaniem, a <strong>frontend</strong> daje mi największe możliwości realizacji moich pomysłów oraz wykorzystania kreatywności. W&nbsp;trakcie procesu przebranżowienia odkryłam, że praca z <strong>JavaScriptem</strong> i&nbsp;<strong>Reactem</strong> daje mi ogromną satysfakcję. Brak możliwości rozwoju w&nbsp;poprzedniej pracy skłonił mnie do zmiany branży: nie lubię tkwić w&nbsp;miejscu, natomiast w każdym wyzwaniu widzę możliwości rozwoju. Każdy nowy projekt jest dla mnie okazją do nauki i doskonalenia umiejętności. Uważam, że nie ma problemu, którego nie da się rozwiązać – to podejście chcę wykorzystywać, projektując <strong>responsywne strony internetowe</strong> i <strong>nowoczesne aplikacje webowe</strong>. Moim celem jest zdobycie doświadczenia jako <strong>React Frontend Developer</strong> w dynamicznym zespole, gdzie będę mogła połączyć swoje <strong>umiejętności analityczne</strong> z&nbsp;<strong>kreatywnością</strong>, tworząc rozwiązania, które będą funkcjonalne i&nbsp;estetyczne. Preferuję <strong>pracę zdalną</strong>, która daje mi elastyczność i pozwala na efektywne zarządzanie czasem, co sprzyja mojemu rozwojowi zawodowemu i realizacji ambitnych celów zawodowych.
+					Od 1,5 roku pasjonuję się programowaniem, a <strong>frontend</strong>{" "}
+					daje mi największe możliwości realizacji moich pomysłów oraz
+					wykorzystania kreatywności. W&nbsp;trakcie procesu przebranżowienia
+					odkryłam, że praca z <strong>JavaScriptem</strong> i&nbsp;
+					<strong>Reactem</strong> daje mi ogromną satysfakcję. Brak możliwości
+					rozwoju w&nbsp;poprzedniej pracy skłonił mnie do zmiany branży: nie
+					lubię tkwić w&nbsp;miejscu, natomiast w każdym wyzwaniu widzę
+					możliwości rozwoju. Każdy nowy projekt jest dla mnie okazją do nauki i
+					doskonalenia umiejętności. Uważam, że nie ma problemu, którego nie da
+					się rozwiązać – to podejście chcę wykorzystywać, projektując{" "}
+					<strong>responsywne strony internetowe</strong> i{" "}
+					<strong>nowoczesne aplikacje webowe</strong>. Moim celem jest zdobycie
+					doświadczenia jako <strong>React Frontend Developer</strong> w
+					dynamicznym zespole, gdzie będę mogła połączyć swoje{" "}
+					<strong>umiejętności analityczne</strong> z&nbsp;
+					<strong>kreatywnością</strong>, tworząc rozwiązania, które będą
+					funkcjonalne i&nbsp;estetyczne. Preferuję{" "}
+					<strong>pracę zdalną</strong>, która daje mi elastyczność i pozwala na
+					efektywne zarządzanie czasem, co sprzyja mojemu rozwojowi zawodowemu i
+					realizacji ambitnych celów zawodowych.
 				</Description>,
 			]}
 			showIcons={false}
@@ -55,7 +74,8 @@ export const Main = () => (
 				<div>
 					<Description>
 						28.05.2007 r. - 09.06.2023 r. - Funkcjonariusz Straży Granicznej,
-						ostatnie&nbsp;zajmowane stanowisko: Specjalista Zespołu Kontroli Ruchu&nbsp;Granicznego Grupy Granicznej Placówki SG w Dołhobyczowie:
+						ostatnie&nbsp;zajmowane stanowisko: Specjalista Zespołu Kontroli
+						Ruchu&nbsp;Granicznego Grupy Granicznej Placówki SG w Dołhobyczowie:
 					</Description>
 					<List
 						items={[

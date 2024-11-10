@@ -2,8 +2,8 @@ import { HashRouter, Route, Routes } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 import { theme } from "./theme";
 import { Wrapper } from "./features/Wrapper";
-import { FirstPage } from "./features/FirstPage";
-import { SecondPage } from "./features/SecondPage";
+import { FirstPage } from "./features/pages/FirstPage";
+import { SecondPage } from "./features/pages/SecondPage";
 
 function App() {
 	return (

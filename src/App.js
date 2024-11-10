@@ -1,15 +1,35 @@
-import { HashRouter } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 import { theme } from "./theme";
 import { Wrapper } from "./features/Wrapper";
+import { FirstPage } from "./features/FirstPage";
+import { SecondPage } from "./features/SecondPage";
 
 function App() {
 	return (
-	<HashRouter future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
+		<HashRouter
+			future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
 			<ThemeProvider theme={theme}>
-			<Wrapper />
-		</ThemeProvider>
-	</HashRouter>
+				<Routes>
+					<Route
+						path="/"
+						element={
+							<Wrapper isFirstPage={true}>
+								<FirstPage />
+							</Wrapper>
+						}
+					/>
+					<Route
+						path="/page2"
+						element={
+							<Wrapper isFirstPage={false}>
+								<SecondPage />
+							</Wrapper>
+						}
+					/>
+				</Routes>
+			</ThemeProvider>
+		</HashRouter>
 	);
 }
 

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Button } from "./styled";
+import { FirstPageButton, SecondPageButton } from "./styled";
 import { faArrowRight, faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import { ArrowIcon } from "./styled";
 
@@ -7,15 +7,15 @@ export const Navigation = ({ isFirstPage }) => (
   <nav>
     {isFirstPage ? (
       <Link to="/page2">
-        <Button>
+        <FirstPageButton>
           <ArrowIcon icon={faArrowRight} />
-        </Button>
+        </FirstPageButton>
       </Link>
     ) : (
       <Link to="/">
-        <Button>
+        <SecondPageButton>
           <ArrowIcon icon={faArrowLeft} />
-        </Button>
+        </SecondPageButton>
       </Link>
     )}
   </nav>

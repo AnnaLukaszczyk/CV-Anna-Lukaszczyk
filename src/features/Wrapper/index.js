@@ -4,11 +4,11 @@ import { Main } from "../Main";
 import { Aside } from "../Aside";
 import { Footer } from "../Footer";
 
-export const Wrapper = () => (
+export const Wrapper = ({ children, isFirstPage }) => (
 	<StyledWrapper>
 		<Header />
-		<Main />
+		<Main>{children}</Main>
 		<Aside />
-		<Footer />
+		<Footer isFirstPage={isFirstPage} />
 	</StyledWrapper>
 );

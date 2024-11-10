@@ -67,7 +67,7 @@ export const Main = ({ isFirstPage }) => (
 							wyzwaniu widzę możliwości rozwoju. Każdy nowy projekt jest dla
 							mnie okazją do nauki i doskonalenia umiejętności. Uważam, że nie
 							ma problemu, którego nie da się rozwiązać – to podejście chcę
-							wykorzystywać, projektując{" "}
+							wykorzystywać projektując{" "}
 							<strong>responsywne strony internetowe</strong> i{" "}
 							<strong>nowoczesne aplikacje webowe</strong>. Moim celem jest
 							zdobycie doświadczenia jako{" "}

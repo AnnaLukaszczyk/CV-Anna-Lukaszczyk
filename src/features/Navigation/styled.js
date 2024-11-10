@@ -4,12 +4,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export const Button = styled.button`
 	position: absolute;
 	bottom: 10px;
-	right: 10px;
-	padding: 6px;
+	padding: 4px;
 	height: 40px;
 	width: 40px;
 	color: azure;
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: bold;
 	border: 1px solid azure;
 	border-radius: 50%;
@@ -20,6 +19,14 @@ export const Button = styled.button`
 		color: azure;
 	}
 `;
+
+export const FirstPageButton = styled(Button)`
+	right: 10px;
+`
+
+export const SecondPageButton = styled(Button)`
+	left: 10px;
+`
 
 export const ArrowIcon = styled(FontAwesomeIcon)`
 	color: azure;

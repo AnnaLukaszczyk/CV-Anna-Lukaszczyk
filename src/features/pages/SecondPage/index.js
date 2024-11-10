@@ -1,5 +1,5 @@
 import { Section } from "../../../common/Section";
-import { Description } from "../../Main/styled";
+import { Description } from "./styled";
 import { List } from "../../../common/List";
 import { faPlay } from "@fortawesome/free-solid-svg-icons";
 

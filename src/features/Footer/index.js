@@ -7,7 +7,7 @@ import {
 	StyledFooter,
 	Info,
 } from "./styled";
-import { Navigation } from "../../common/Navigation";
+import { Navigation } from "../Navigation";
 
 export const Footer = ({ isFirstPage }) => (
 	<StyledFooter>

@@ -2,8 +2,6 @@ import { HashRouter, Route, Routes } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 import { theme } from "./theme";
 import { Wrapper } from "./features/Wrapper";
-import { FirstPage } from "./features/pages/FirstPage";
-import { SecondPage } from "./features/pages/SecondPage";
 
 function App() {
 	return (
@@ -14,17 +12,13 @@ function App() {
 					<Route
 						path="/"
 						element={
-							<Wrapper isFirstPage={true}>
-								<FirstPage />
-							</Wrapper>
+							<Wrapper isFirstPage={true} />
 						}
 					/>
 					<Route
 						path="/page2"
 						element={
-							<Wrapper isFirstPage={false}>
-								<SecondPage />
-							</Wrapper>
+							<Wrapper isFirstPage={false} />
 						}
 					/>
 				</Routes>

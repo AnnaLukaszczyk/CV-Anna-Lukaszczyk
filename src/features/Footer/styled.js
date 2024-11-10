@@ -34,7 +34,7 @@ export const Layer1 = styled(Layer)`
 export const Layer2 = styled(Layer)`
 	width: 101%;
 	background-color: #2e7186;
-	clip-path: polygon(0 50%, 90% 100%, 0 100%);
+	clip-path: polygon(0 38%, 90% 100%, 0 100%);
 `;
 
 export const Layer3 = styled(Layer)`

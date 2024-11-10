@@ -1,6 +1,6 @@
 import { CertificateLink, PersonalHomepage } from "../../../common/Links";
 import { Section } from "../../../common/Section";
-import { Course, Description } from "../../Main/styled";
+import { Course, Description } from "./styled";
 
 export const FirstPage = () => (
 	<>

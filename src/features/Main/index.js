@@ -1,13 +1,43 @@
-import { CertificateLink, PersonalHomepage } from "../../common/Links";
+import { CertificateLink, ProjectLink } from "../../common/Links";
 import { List } from "../../common/List";
 import { Section } from "../../common/Section";
-import { StyledMain, Course, Description } from "./styled";
+import { StyledMain, Project, Course, Description } from "./styled";
 import { faPlay } from "@fortawesome/free-solid-svg-icons";
 
 export const Main = ({ isFirstPage }) => (
 	<StyledMain>
 		{isFirstPage ? (
 			<>
+				<Section
+					isMain
+					name="Projekty"
+					content={[
+						<Project>
+							strona o mnie - HTML, CSS, JavaScript, Grid, Flexbox, React, API<br />
+							<ProjectLink projectLink="https://annalukaszczyk.github.io/Personal-homepage/" />
+						</Project>,
+						<Project>
+							wyszukiwarka filmów - HTML, CSS, JavaScript, Flexbox, React, Axios, Saga, API (praca zespołowa)<br />
+							<ProjectLink projectLink="https://annalukaszczyk.github.io/movies-browser/#/movies?page=1" />
+						</Project>,
+						<Project>
+							kalkulator rachunków - HTML, CSS, JavaScript, Flexbox, media queries<br />
+							<ProjectLink projectLink="https://annalukaszczyk.github.io/kalkulator-rachunkow/" />
+						</Project>,
+						<Project>
+							lista zadań - HTML, CSS, JavaScript, Grid, React, Redux<br />
+							<ProjectLink projectLink="https://annalukaszczyk.github.io/todoList--React/#/zadania" />
+						</Project>,
+								<Project>
+								przykładowa strona internetowa - HTML, CSS, Sass (SCSS), Bootstrap, JavaScript<br />
+								<ProjectLink projectLink="https://annalukaszczyk.github.io/webside-on-bootstrap/" />
+							</Project>,
+						<Project>
+							kalkulator walut - HTML, CSS, JavaScript, Grid, React, API<br />
+							<ProjectLink projectLink="https://annalukaszczyk.github.io/kalkulator-walut-react/" />
+						</Project>,
+					]}
+				/>
 				<Section
 					isMain
 					name="Kursy"
@@ -37,16 +67,6 @@ export const Main = ({ isFirstPage }) => (
 							<CertificateLink certificateLink="https://github.com/AnnaLukaszczyk/CV-Anna-Lukaszczyk/blob/main/public/certificateWWW1.png?raw=true" />
 						</Course>,
 					]}
-				/>
-				<Section
-					isMain
-					name="Portfolio"
-					content={[
-						<Description>
-							Zapraszam do zapoznania się z <PersonalHomepage />
-						</Description>,
-					]}
-					showIcons={false}
 				/>
 			</>
 		) : (

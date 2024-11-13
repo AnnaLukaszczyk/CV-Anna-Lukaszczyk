@@ -60,6 +60,16 @@ export const LinkedInLink = () => (
 	</LinkToLinkedIn>
 );
 
+export const ProjectLink = ({ projectLink }) => (
+	<Link
+		href={projectLink}
+		target="_blank"
+		rel="noopener noreferrer"
+		title="Kliknij, aby przejść do projektu">
+		{projectLink}
+	</Link>
+);
+
 export const CertificateLink = ({ certificateLink }) => (
 	<Link
 		href={certificateLink}

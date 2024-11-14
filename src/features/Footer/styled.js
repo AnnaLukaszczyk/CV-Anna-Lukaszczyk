@@ -8,7 +8,7 @@ export const StyledFooter = styled.footer`
 `;
 export const Layers = styled.div`
 	position: relative;
-	height: 100px;
+	height: 90px;
 	width: 100%;
 	overflow: hidden;
 `;

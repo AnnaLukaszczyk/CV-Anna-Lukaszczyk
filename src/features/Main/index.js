@@ -24,6 +24,11 @@ export const Main = ({ isFirstPage }) => (
 							<ProjectLink projectLink="https://annalukaszczyk.github.io/movies-browser/#/movies?page=1" />
 						</Project>,
 						<Project>
+						moje CV - HTML, CSS, JavaScript, Flexbox, React
+						<br />
+						<ProjectLink projectLink="https://annalukaszczyk.github.io/CV-Anna-Lukaszczyk/" />
+					</Project>,
+						<Project>
 							kalkulator rachunków - HTML, CSS, JavaScript, Flexbox, media
 							queries
 							<br />

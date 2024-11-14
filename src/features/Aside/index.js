@@ -1,5 +1,5 @@
 import { Section } from "../../common/Section";
-import { StyledAside } from "./styled";
+import { StyledAside, Info } from "./styled";
 import {
 	AddressLink,
 	EmailLink,
@@ -59,10 +59,21 @@ export const Aside = ({ isFirstPage }) => (
 				<Section
 					name="Zainteresowania"
 					content={[
-						"filmy i seriale kryminalne, detektywistyczne i prawnicze, które angażują w rozwiązywanie spraw i analizowanie złożonych sytuacji",
-						"lubię układać puzzle, które doskonale ćwiczą pamięć i rozwijają umiejętności logicznego myślenia",
+						"W wolnym czasie z przyjemnością oglądam filmy i seriale kryminalne, detektywistyczne oraz prawnicze, które angażują w rozwiązywanie spraw i analizowanie złożonych sytuacji. Ponadto relaksuje mnie układanie puzzli, co dodatkowo doskonale ćwiczy pamięć i rozwija umiejętności logicznego myślenia.",
 					]}
+					showIcons={false}
 				/>
+				<Section name="Uprawnienia" content={["prawo jazdy kat. B"]} />
+				<Section
+					name="Rekomendacje"
+					content={[
+						"Uprzejmie zapraszam do zapoznania się z rekomendacjami i opiniami na moim profilu LinkedIn.",
+					]}
+					showIcons={false}
+				/>
+				<Info>
+				Wyrażam zgodę na przetwarzanie moich danych osobowych zawartych w CV na potrzeby rekrutacji, zgodnie z Rozporządzeniem (UE) 2016/679 (RODO).
+				</Info>
 			</>
 		)}
 	</StyledAside>

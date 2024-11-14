@@ -11,7 +11,7 @@ export const StyledAside = styled.aside`
 `;
 
 export const Info = styled.p`
-	margin-top: 180px;
+	margin-top: 206px;
 	padding: 10px 10px 50px;
 	font-size: 11px;
 	color: azure;

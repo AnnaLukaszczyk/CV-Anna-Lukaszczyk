@@ -66,13 +66,13 @@ export const Main = ({ isFirstPage }) => (
 						</Course>,
 						<Course>
 							09.02.2023 r. - Kurs Tworzenia Stron WWW cz. 2 - SASS, JS,
-							Bootstrap na Udemy, prowadzony przez instruktora z MMC School{" "}
+							Bootstrap na&nbsp;Udemy, prowadzony przez instruktora z MMC School{" "}
 							<br />
 							<CertificateLink certificateLink="https://github.com/AnnaLukaszczyk/CV-Anna-Lukaszczyk/blob/main/public/certificateWWW2.png?raw=true" />
 						</Course>,
 						<Course>
-							17.01.2023 r. - Kurs Tworzenia Stron WWW cz. 1 - HTML, CSS, RWD na
-							Udemy, prowadzony przez instruktora z MMC School <br />
+							17.01.2023 r. - Kurs Tworzenia Stron WWW cz. 1 - HTML, CSS, RWD
+							na&nbsp;Udemy, prowadzony przez instruktora z MMC School <br />
 							<CertificateLink certificateLink="https://github.com/AnnaLukaszczyk/CV-Anna-Lukaszczyk/blob/main/public/certificateWWW1.png?raw=true" />
 						</Course>,
 					]}

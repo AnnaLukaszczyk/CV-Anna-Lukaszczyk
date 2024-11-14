@@ -13,27 +13,36 @@ export const Main = ({ isFirstPage }) => (
 					name="Projekty"
 					content={[
 						<Project>
-							strona o mnie - HTML, CSS, JavaScript, Grid, Flexbox, React, API<br />
+							strona o mnie - HTML, CSS, JavaScript, Grid, Flexbox, React, API
+							<br />
 							<ProjectLink projectLink="https://annalukaszczyk.github.io/Personal-homepage/" />
 						</Project>,
 						<Project>
-							wyszukiwarka filmów - HTML, CSS, JavaScript, Flexbox, React, Axios, Saga, API (praca zespołowa)<br />
+							wyszukiwarka filmów - HTML, CSS, JavaScript, Flexbox, React,
+							Axios, Saga, API (praca zespołowa)
+							<br />
 							<ProjectLink projectLink="https://annalukaszczyk.github.io/movies-browser/#/movies?page=1" />
 						</Project>,
 						<Project>
-							kalkulator rachunków - HTML, CSS, JavaScript, Flexbox, media queries<br />
+							kalkulator rachunków - HTML, CSS, JavaScript, Flexbox, media
+							queries
+							<br />
 							<ProjectLink projectLink="https://annalukaszczyk.github.io/kalkulator-rachunkow/" />
 						</Project>,
 						<Project>
-							lista zadań - HTML, CSS, JavaScript, Grid, React, Redux<br />
+							lista zadań - HTML, CSS, JavaScript, Grid, React, Redux
+							<br />
 							<ProjectLink projectLink="https://annalukaszczyk.github.io/todoList--React/#/zadania" />
 						</Project>,
-								<Project>
-								przykładowa strona internetowa - HTML, CSS, Sass (SCSS), Bootstrap, JavaScript<br />
-								<ProjectLink projectLink="https://annalukaszczyk.github.io/webside-on-bootstrap/" />
-							</Project>,
 						<Project>
-							kalkulator walut - HTML, CSS, JavaScript, Grid, React, API<br />
+							przykładowa strona internetowa - HTML, CSS, Sass (SCSS),
+							Bootstrap, JavaScript
+							<br />
+							<ProjectLink projectLink="https://annalukaszczyk.github.io/webside-on-bootstrap/" />
+						</Project>,
+						<Project>
+							kalkulator walut - HTML, CSS, JavaScript, Grid, React, API
+							<br />
 							<ProjectLink projectLink="https://annalukaszczyk.github.io/kalkulator-walut-react/" />
 						</Project>,
 					]}
@@ -88,7 +97,7 @@ export const Main = ({ isFirstPage }) => (
 							mnie okazją do nauki i doskonalenia umiejętności. Uważam, że nie
 							ma problemu, którego nie da się rozwiązać – to podejście chcę
 							wykorzystywać projektując{" "}
-							<strong>responsywne strony internetowe</strong> i{" "}
+							<strong>responsywne strony internetowe</strong> i&nbsp;
 							<strong>nowoczesne aplikacje webowe</strong>. Moim celem jest
 							zdobycie doświadczenia jako{" "}
 							<strong>React Frontend Developer</strong> w dynamicznym zespole,
@@ -97,7 +106,7 @@ export const Main = ({ isFirstPage }) => (
 							<strong>kreatywnością</strong>, tworząc rozwiązania, które będą
 							funkcjonalne i&nbsp;estetyczne. Preferuję{" "}
 							<strong>pracę zdalną</strong>, która daje mi elastyczność i
-							pozwala na efektywne zarządzanie czasem, co sprzyja mojemu
+							pozwala na efektywne zarządzanie czasem, co&nbsp;sprzyja mojemu
 							rozwojowi zawodowemu i realizacji ambitnych celów zawodowych.
 						</Description>,
 					]}
@@ -117,7 +126,7 @@ export const Main = ({ isFirstPage }) => (
 							<List
 								items={[
 									"zarządzanie i analiza dokumentacji oraz raportów, wyszukiwanie błędów z odprawy osób oraz pojazdów, co wymagało wysokiej dokładności i skrupulatności",
-									"rozwiązywanie problemów w szybko zmieniającym się środowisku, co wymagało umiejętności logicznego myślenia i&nbsp;skutecznego podejmowania decyzji",
+									"rozwiązywanie problemów w szybko zmieniającym się środowisku, wymagające logicznego myślenia oraz skutecznego podejmowania decyzji",
 									"współpraca w zespole, organizacja działań oraz zarządzanie czasem i priorytetami w celu osiągnięcia wyznaczonych celów",
 									"współpraca z innymi służbami i instytucjami",
 								]}

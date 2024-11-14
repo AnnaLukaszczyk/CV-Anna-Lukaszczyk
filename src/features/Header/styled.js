@@ -83,7 +83,7 @@ export const HeaderInfo = styled.div`
 `;
 
 export const Name = styled.h1`
-	margin-top: 22px;
+	margin-top: 18px;
 	font-size: 36px;
 	font-weight: bold;
 	text-transform: uppercase;

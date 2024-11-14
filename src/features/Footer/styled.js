@@ -45,14 +45,3 @@ export const Layer3 = styled(Layer)`
 	);
 	clip-path: polygon(12% 100%, 100% 100%, 100% 10%);
 `;
-
-export const Info = styled.p`
-	position: absolute;
-	margin: 0 8px;
-	text-align: center;
-	bottom: 8px;
-	right: 50px;
-	font-size: 10px;
-	color: transparent;
-	transition: color 0.8s ease-in-out;
-`;

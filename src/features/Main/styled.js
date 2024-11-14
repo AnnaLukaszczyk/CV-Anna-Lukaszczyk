@@ -13,11 +13,11 @@ export const Description = styled.p`
 `;
 
 export const Project = styled.span`
-	margin-bottom: 4px;
+	margin-bottom: 3px;
 	font-weight: bold;
 `;
 
 export const Course = styled.span`
-	margin-bottom: 4px;
+	margin-bottom: 3px;
 	font-weight: bold;
 `;

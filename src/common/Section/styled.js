@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledSection = styled.section`
-	margin: 24px 0;
+	margin: 18px 0;
 `;
 
 export const SectionTitleShadow = styled.div`

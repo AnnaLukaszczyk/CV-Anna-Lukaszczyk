@@ -5,7 +5,6 @@ import {
 	Layer2,
 	Layer3,
 	StyledFooter,
-	Info,
 } from "./styled";
 import { Navigation } from "../Navigation";
 
@@ -22,13 +21,6 @@ export const Footer = ({ isFirstPage }) => (
 				<Layer3 />
 			</LayerBox>
 		</Layers>
-		<Info>
-			Wyrażam zgodę na przetwarzanie moich danych osobowych zawartych w CV w
-			celu prowadzenia rekrutacji zgodnie z przepisami ustawy z dnia 10 maja
-			2018 roku o ochronie danych osobowych (Dz. U. z 2018 r. poz. 1000) oraz
-			zgodnie z Rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2016/679 z
-			dnia 27 kwietnia 2016 r. (RODO).
-		</Info>
 		<Navigation isFirstPage={isFirstPage} />
 	</StyledFooter>
 );
